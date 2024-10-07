@@ -1,12 +1,12 @@
 {
   "name": "pilldoctor-backend",
   "version": "1.0.0",
-  "description": "Pill Docktor Backend is a robust and scalable backend system designed to support the Pill Docktor application, which helps users manage their medication schedules and provides essential information about their prescriptions.",
-  "main": "index.js",
+  "description": "Simple application to test commit hooks",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node ./src/app.js",
-    "dev": "node --watch ./src/app.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,10 @@
     "express": "^4.21.0",
     "path": "^0.12.7",
     "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-runner-groups": "^2.2.0",
+    "nodemon": "^3.1.7"
   }
 }
