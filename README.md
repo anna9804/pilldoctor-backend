@@ -58,7 +58,5 @@ For support or inquiries, please contact:
 ## Acknowledgements
 
 - Thanks to the open-source community for the invaluable tools and libraries used in this project.
-- Express.js
-- MongoDB
-- JWT for authentication
+
 - Special thanks to our beta testers for their feedback and suggestions.
